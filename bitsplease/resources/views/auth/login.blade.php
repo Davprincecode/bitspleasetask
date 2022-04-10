@@ -8,10 +8,14 @@
     <title>Document</title>
 </head>
 <body>
+
+<div class="header">
+    <h1>were glad you came</h1>
+    <p>dont wait any longer, login</p>
+</div>
                 
                  <div class="cardcontainer">
                     <div class="card">
-                <h3 class="card-header">Login</h3>
                         <form method="POST" action="{{ route('login.custom') }}">
                             @csrf
     <div class="inputform">
@@ -43,7 +47,29 @@
                             </div>
 
                         </form>
-                    </div>  </div> 
+                        <div class="alternative">
+  <div class="righthand"></div>
+  <p>alternative</p>
+  <div class="lefthand"></div>
+                    </div>
+
+                      <div class="googlecontainer">
+                          <div class="googleimg">
+                              <img src="{{asset('/image/google.png')}}" alt="">
+                          </div>
+                          <p>continue with google</p>
+                      </div>
+                    
+                    <div class="fellow">
+                        <p style="margin-bottom:10px;">Not yet a fellow <a href="{{ route('register-user') }}" style="font-weight: bold;font-size: 18px;
+                        text-transform: capitalize;
+                         ">join us</a></p>
+                        <p><a href="" style="font-size: 18px;
+                        text-transform: capitalize;
+                         ">forgot password?</a></p>
+                    </div>
+                    </div>
+        </div>
 </main> 
 </body>
 </html>
