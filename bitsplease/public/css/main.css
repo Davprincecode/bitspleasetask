@@ -164,10 +164,12 @@ nav li:first-child span {
 }
 .chat {
     width: 350px;
+    height: 100px;
     border: 2px solid #F2BD00;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
+    line-height: 100px;
+    /* display: flex;
+    align-items: center; */
 }
 .chat p {
     font-size: 14px;

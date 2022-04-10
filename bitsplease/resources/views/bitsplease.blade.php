@@ -49,18 +49,19 @@
             </p>
             <nav class="btn">
 
-                <div class="sig">
+       <div class="sig">
         <a href="{{ route('login') }}" > sign in</a></div>
         <div class="reg">
                 <a href="{{ route('register-user') }}">join us now</a>
             </div>
             </nav>
+
             <div class="chat">
-                <div class="chat-img">
-                    <img src="" alt=""></div>
+               
                 <p>We know you want to chat, what is it about?</p>
-            </div>
+            
         </div>
+
         <div class="container-img">
             <div class="img-group">
                 <img src="HeroSection.png" alt="">
